@@ -25,4 +25,5 @@ MatchWaza/
 ├── script.js         # Core game loop, card shuffling, and match verification
 ├── assets/           # Audio clips, icons, and visual media
 └── data/
-    └── words.json    # Vocabulary database (Japanese - Polish pairs)
+    ├── words-jp.json # Japanese vocabulary (kanji, kana, romaji), keyed by shared "english" field
+    └── words-pl.json # Polish vocabulary, keyed by the same shared "english" field

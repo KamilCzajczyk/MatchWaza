@@ -1,0 +1,22 @@
+[
+  { "id": 1, "english": "water", "kanji": "水", "kana": "みず", "romaji": "mizu" },
+  { "id": 2, "english": "fire", "kanji": "火", "kana": "ひ", "romaji": "hi" },
+  { "id": 3, "english": "mountain", "kanji": "山", "kana": "やま", "romaji": "yama" },
+  { "id": 4, "english": "river", "kanji": "川", "kana": "かわ", "romaji": "kawa" },
+  { "id": 5, "english": "sky", "kanji": "空", "kana": "そら", "romaji": "sora" },
+  { "id": 6, "english": "dog", "kanji": "犬", "kana": "いぬ", "romaji": "inu" },
+  { "id": 7, "english": "cat", "kanji": "猫", "kana": "ねこ", "romaji": "neko" },
+  { "id": 8, "english": "bird", "kanji": "鳥", "kana": "とり", "romaji": "tori" },
+  { "id": 9, "english": "fish", "kanji": "魚", "kana": "さかな", "romaji": "sakana" },
+  { "id": 10, "english": "flower", "kanji": "花", "kana": "はな", "romaji": "hana" },
+  { "id": 11, "english": "tree", "kanji": "木", "kana": "き", "romaji": "ki" },
+  { "id": 12, "english": "book", "kanji": "本", "kana": "ほん", "romaji": "hon" },
+  { "id": 13, "english": "friend", "kanji": "友達", "kana": "ともだち", "romaji": "tomodachi" },
+  { "id": 14, "english": "teacher", "kanji": "先生", "kana": "せんせい", "romaji": "sensei" },
+  { "id": 15, "english": "school", "kanji": "学校", "kana": "がっこう", "romaji": "gakkou" },
+  { "id": 16, "english": "food", "kanji": "食べ物", "kana": "たべもの", "romaji": "tabemono" },
+  { "id": 17, "english": "house", "kanji": "家", "kana": "いえ", "romaji": "ie" },
+  { "id": 18, "english": "road", "kanji": "道", "kana": "みち", "romaji": "michi" },
+  { "id": 19, "english": "dream", "kanji": "夢", "kana": "ゆめ", "romaji": "yume" },
+  { "id": 20, "english": "heart", "kanji": "心", "kana": "こころ", "romaji": "kokoro" }
+]
