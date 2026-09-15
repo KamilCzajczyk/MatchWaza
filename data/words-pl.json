@@ -1,0 +1,22 @@
+[
+  { "id": 1, "english": "water", "polish": "woda" },
+  { "id": 2, "english": "fire", "polish": "ogień" },
+  { "id": 3, "english": "mountain", "polish": "góra" },
+  { "id": 4, "english": "river", "polish": "rzeka" },
+  { "id": 5, "english": "sky", "polish": "niebo" },
+  { "id": 6, "english": "dog", "polish": "pies" },
+  { "id": 7, "english": "cat", "polish": "kot" },
+  { "id": 8, "english": "bird", "polish": "ptak" },
+  { "id": 9, "english": "fish", "polish": "ryba" },
+  { "id": 10, "english": "flower", "polish": "kwiat" },
+  { "id": 11, "english": "tree", "polish": "drzewo" },
+  { "id": 12, "english": "book", "polish": "książka" },
+  { "id": 13, "english": "friend", "polish": "przyjaciel" },
+  { "id": 14, "english": "teacher", "polish": "nauczyciel" },
+  { "id": 15, "english": "school", "polish": "szkoła" },
+  { "id": 16, "english": "food", "polish": "jedzenie" },
+  { "id": 17, "english": "house", "polish": "dom" },
+  { "id": 18, "english": "road", "polish": "droga" },
+  { "id": 19, "english": "dream", "polish": "sen / marzenie" },
+  { "id": 20, "english": "heart", "polish": "serce" }
+]

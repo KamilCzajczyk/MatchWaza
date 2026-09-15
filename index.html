@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MatchWaza (マッチ技)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;700&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="app-header">
+  <h1 class="logo">MatchWaza <span class="logo-jp">マッチ技</span></h1>
+  <p class="tagline">Learn Japanese vocabulary by matching pairs</p>
+</header>
+
+<main>
+
+  <section id="start-screen" class="screen">
+    <div class="panel">
+      <h2>Choose a difficulty level</h2>
+      <div class="level-select" id="level-select">
+        <button class="level-btn" data-pairs="6">
+          <span class="level-num">6</span>
+          <span class="level-label">pairs · Easy</span>
+        </button>
+        <button class="level-btn" data-pairs="10">
+          <span class="level-num">10</span>
+          <span class="level-label">pairs · Medium</span>
+        </button>
+        <button class="level-btn" data-pairs="15">
+          <span class="level-num">15</span>
+          <span class="level-label">pairs · Hard</span>
+        </button>
+      </div>
+      <button id="start-btn" class="btn btn-primary" disabled>Start Game</button>
+      <p id="load-error" class="error-text" hidden>Failed to load the vocabulary. Make sure the game is running through a local server (not opened directly as a file).</p>
+    </div>
+  </section>
+
+  <section id="game-screen" class="screen" hidden>
+    <div class="stats-bar">
+      <div class="stat">
+        <span class="stat-label">Time</span>
+        <span class="stat-value" id="stat-time">00:00</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Moves</span>
+        <span class="stat-value" id="stat-moves">0</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Accuracy</span>
+        <span class="stat-value" id="stat-accuracy">100%</span>
+      </div>
+      <button id="restart-btn" class="btn btn-secondary">New Game</button>
+    </div>
+
+    <div class="board" id="board"></div>
+  </section>
+
+</main>
+
+<div id="win-modal" class="modal-overlay" hidden>
+  <div class="modal">
+    <h2>おめでとう！ Congratulations!</h2>
+    <p>You found all the pairs.</p>
+    <div class="modal-stats">
+      <div class="modal-stat">
+        <span class="modal-stat-value" id="final-time">00:00</span>
+        <span class="modal-stat-label">Time</span>
+      </div>
+      <div class="modal-stat">
+        <span class="modal-stat-value" id="final-moves">0</span>
+        <span class="modal-stat-label">Moves</span>
+      </div>
+      <div class="modal-stat">
+        <span class="modal-stat-value" id="final-accuracy">100%</span>
+        <span class="modal-stat-label">Accuracy</span>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button id="play-again-btn" class="btn btn-primary">Play Again</button>
+      <button id="change-level-btn" class="btn btn-secondary">Change Level</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
