@@ -1,0 +1,23 @@
+name: Automatic Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*' # Uruchamia się po pchnięciu tagu pasującego do wzorca, np. v1.0.0, v0.1.2
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Wymagane uprawnienie do tworzenia wydań (Releases)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true # GitHub automatycznie wygeneruje opisy zmian z PR-ów i commitów
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
